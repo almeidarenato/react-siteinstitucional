@@ -17,7 +17,12 @@ const Portfolio = () => {
       <div className="row text-center">
         <div className="col-sm-4">
           <div className="thumbnail">
-            <img src="/img/paris.jpg" alt="Paris" width="400" height="300" />
+            <img
+              src={process.env.PUBLIC_URL + "/img/paris.jpg"}
+              alt="Paris"
+              width="400"
+              height="300"
+            />
             <p>
               <strong>Paris</strong>
             </p>
@@ -27,7 +32,7 @@ const Portfolio = () => {
         <div className="col-sm-4">
           <div className="thumbnail">
             <img
-              src="/img/newyork.jpg"
+              src={process.env.PUBLIC_URL + "/img/newyork.jpg"}
               alt="New York"
               width="400"
               height="300"
@@ -41,7 +46,7 @@ const Portfolio = () => {
         <div className="col-sm-4">
           <div className="thumbnail">
             <img
-              src="/img/sanfran.jpg"
+              src={process.env.PUBLIC_URL + "/img/sanfran.jpg"}
               alt="San Francisco"
               width="400"
               height="300"

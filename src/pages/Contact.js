@@ -65,7 +65,7 @@ const Contact = () => {
 
       {/* // <!-- Image of location/map --> */}
       <img
-        src="/img/map.jpg"
+        src={process.env.PUBLIC_URL + "/img/map.jpg"}
         className="w3-image w3-greyscale-min"
         style={{ width: "100%" }}
         alt="mapa"
